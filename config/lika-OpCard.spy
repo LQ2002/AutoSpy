@@ -1,0 +1,37 @@
+js_config:
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 【开卡】大牌联合
+  Script: jd_opencardLH.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wdz_activityId
+  KeyWord:
+  - - jd_wdz_activityId
+  Name: 【开卡】微定制
+  Script: jd_wdz.js
+  TimeOut: 0
+  Wait: 10
+- Container:
+  - []
+  Env: JD_JOYOPEN
+  KeyWord:
+  - - JD_JOYOPEN
+  Name: 【开卡】JoyJd任务脚本
+  Script: jd_opencard_joyopen.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wdz_openLuckBag_activityId
+  KeyWord:
+  - - jd_wdz_openLuckBag_activityId
+  Name: 【开卡】微定制-开福袋
+  Script: jd_wdz_openLuckBag.js
+  TimeOut: 0
+  Wait: 5
