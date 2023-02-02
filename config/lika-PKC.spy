@@ -1,0 +1,19 @@
+js_config:
+- Container:
+  - []
+  Env: PKC_TXGZYL
+  KeyWord:
+  - - PKC_TXGZYL
+  Name: 【PKC】关注有礼-特效
+  Script: jd_txgzyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: PKC_GZYL
+  KeyWord:
+  - - PKC_GZYL
+  Name: 【PKC】关注有礼
+  Script: pkc_gzyl.js
+  TimeOut: 0
+  Wait: 2

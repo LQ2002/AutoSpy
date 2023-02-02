@@ -5,7 +5,7 @@ js_config:
   KeyWord:
   - - jd_wxCartKoi_activityId
   Name: 【云上】购物车锦鲤
-  Script: jd_wxCartKoi.js
+  Script: KingRan_KR/jd_wxCartKoi.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -14,7 +14,7 @@ js_config:
   KeyWord:
   - - WXGAME_ACT_ID
   Name: 【云上】通用游戏任务
-  Script: jd_wxgame.js
+  Script: KingRan_KR/jd_wxgame.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -23,7 +23,7 @@ js_config:
   KeyWord:
   - - jd_wxSecond_activityId
   Name: 【云上】读秒拼手速
-  Script: jd_wxSecond.js
+  Script: shufflewzc_faker2_main/jd_wxSecond.js
   TimeOut: 0
   Wait: 2
 - Container:
