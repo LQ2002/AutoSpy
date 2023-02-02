@@ -1,0 +1,61 @@
+js_config:
+- Container:
+  - []
+  Env: jd_cjhy_wxCollectionActivityId
+  KeyWord:
+  - - jd_cjhy_wxCollectionActivityId
+  - - jd_wxCollectionActivity_activityUrl
+  Name: 【抽奖】cjhy加购物车
+  RegularRules: 'cjhy@[\d|a-z]{32}@0'
+  Script: jd_cjhy_wxCollectionActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_wxCollectionActivityId
+  KeyWord:
+  - - jd_lzkj_wxCollectionActivityId
+  - - jd_wxCollectionActivity_activityUrl
+  Name: 【抽奖】lzkj加购物车
+  RegularRules: 'lzkj@[\d|a-z]{32}@0'
+  Script: jd_lzkj_wxCollectionActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCollectCard_activityId
+  KeyWord:
+  - - jd_wxCollectCard_activityId
+  Name: 【抽奖】集卡抽奖通用
+  Script: jd_wxCollectCard.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxShopFollowActivity_activityId
+  KeyWord:
+  - - jd_wxShopFollowActivity_activityId
+  - - jd_wxShopFollowActivity_activityUrl
+  Name: 【抽奖】关注店铺抽奖
+  RegularRules: '@[\d|a-z]{32}@0'
+  Script: jd_wxShopFollowActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_mhurlLis
+  KeyWord:
+  - - jd_mhurlLis
+  Name: 【抽奖】盲盒抽京豆
+  Script: jd_mhtask.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_nzmhurl
+  KeyWord:
+  - - jd_nzmhurl
+  Name: 【抽奖】女装盲盒抽京豆
+  Script: jd_nzmh.js
+  TimeOut: 0
+  Wait: 2
